@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+	<title>QR Kod Oluşturucu</title>
+</head>
+<body>
+<h3>QR-Code Olusturucusuna Hos&nbsp;Geldin! Alttaki Yerleri Secip Qr Kod Olusturabilirsin</h3>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><!-- import the webpage's stylesheet --></body>
+<link href="/style.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet" /><!-- import the webpage's javascript file --><script src="/script.js" defer></script>
+<div class="form"><label for="data">Yazi&nbsp;Veya Link *ZORUNLU*</label> <input id="data" type="text" /> <label for="format">Dosya Turu&nbsp;*İSTEĞE BAĞLI*</label> <select id="format"><option value="jpeg">JPEG</option><option value="svg">SVG</option><option value="png">PNG</option> </select> <span class="down-arrow-three">&darr;</span> <label for="margin" id="margintwo">Kenar Boşluğu</label> <select id="margin"><option value="10">K&uuml;&ccedil;&uuml;k</option><option value="30">Orta</option><option value="50">B&uuml;y&uuml;k</option><option value="70">&Ccedil;ok B&uuml;y&uuml;k</option> </select> <span class="down-arrow-three" id="marginthree">&darr;</span> <label for="bgcolor">Arka Plan Rengi (onerilen: beyaz)</label> <select id="bgcolor"><option value="531B93">Mor</option><option value="FF2F92">Kırmızı</option><option value="8EFA00">Yeşil</option><option value="7A81FF">Mavi</option><option value="000000">Siyah</option><option value="ffffff">Beyaz</option> </select> <span class="down-arrow-two">&darr;</span> <label for="color">Renk (onerilen: siyah)</label> <select id="color"><option value="FF2F92">Kırmızı</option><option value="531B93">Mor</option><option value="8EFA00">Yeşil</option><option value="7A81FF">Mavi</option><option value="000000">Siyah</option><option value="ffffff">Beyaz</option> </select> <span class="down-arrow">&darr;</span><button id="submitButton" onclick="grabValues()">Qr Kod Oluştur</button></div>
+
+<div id="imageArea"></div>
+</html>

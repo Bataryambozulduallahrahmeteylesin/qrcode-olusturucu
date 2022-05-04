@@ -1,0 +1,65 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background: #212121;
+}
+
+h3 {
+  font-family: 'Gaegu', cursive;
+  color: #76D6FF;
+  text-align: center;
+}
+
+input {
+  background: #D6C6DA;
+  padding: 10px;
+  width: 150px;
+}
+button {
+  margin-top:10px;
+  background: #FFD479;
+  padding: 10px;
+  display:block;
+}
+
+label {
+  margin-top:10px;
+  display: block;
+  color: red;
+}
+
+.form {
+  width: 155px;
+  margin: auto;
+}
+
+
+select {
+  background:#929292;
+  padding: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;  
+}
+
+.down-arrow {
+  margin-left: -15px;
+}
+
+.down-arrow-two {
+  margin-left: -15px;
+}
+
+.down-arrow-three {
+  margin-left: -15px;
+}
+
+#imageArea {
+  margin-top: 40px;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
