@@ -1,0 +1,2 @@
+# qrcode-olusturucu
+Qrcode Oluşturucu
